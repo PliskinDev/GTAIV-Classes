@@ -5,20 +5,20 @@
 
 namespace rage
 {
-    class NativeRegistry {
+    class scrNativeRegistration {
     public:
-        NativeRegistry(uint32_t tableSize) {
+        scrNativeRegistration(uint32_t tableSize) {
             m_tableSize = tableSize;
             m_nativeCount = 0;
             m_pNatives = new int[8 * tableSize];
             memset(m_pNatives, 0, 8 * tableSize * sizeof(int));
         }
 
-        ~NativeRegistry() {
+        ~scrNativeRegistration() {
             delete[] m_pNatives;
         }
 
-        uint32_t registerNative(uint32_t nativeId, int nativeValue) {
+        uint32_t m_register_native(uint32_t nativeId, int nativeValue) {
             uint32_t index, currentId, currentValue;
             index = nativeId % m_tableSize;
             currentId = nativeId;

@@ -19,10 +19,4 @@ namespace rage
         uint32_t _0x0024;
         char pad_0025[3];
     };
-
-    class CPedObj2
-    {
-    public:
-       
-    };
 }

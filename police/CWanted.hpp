@@ -3,6 +3,7 @@
 #include <cstdint>
 #include "../rage/vector.hpp"
 #include "../player/CPlayer.hpp"
+#include "../ped/CPed.hpp"
 
 enum eWantedState
 {

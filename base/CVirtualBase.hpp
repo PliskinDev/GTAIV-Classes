@@ -3,5 +3,5 @@
 class CVirtualBase
 {
 public:
-    virtual ~CVirtualBase() = default;
+    ~CVirtualBase() = default;
 };

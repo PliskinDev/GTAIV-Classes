@@ -43,16 +43,6 @@ namespace rage
        uint32_t m_value;
        char pad_0014[3];
     };
-
-    class crFrameDofQuaternion
-    {
-    public:
-         
-    };
-    class crFrameBuffer
-    {
-    public:
-    };
 }
 
 

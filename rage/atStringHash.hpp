@@ -39,5 +39,3 @@ namespace rage
         return hash;
     }
 }
-
-#define ATSTRINGHASH(str) rage::atStringHash(str)
